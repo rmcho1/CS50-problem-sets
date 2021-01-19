@@ -3,4 +3,4 @@ https://cs50.harvard.edu/x/2020/tracks/web/homepage/
 
 Please see problem set prompt for finance (Develop stock page):
 https://cs50.harvard.edu/x/2020/tracks/web/finance/
-*Note that this is incomplete*
+/n*Note that this is incomplete*
