@@ -1,0 +1,115 @@
+/*homepage and main*/
+header {
+    text-align: center;
+    width: 750px;
+    padding: 50px;
+    margin: 80px auto 80px auto;
+    background: grey;
+    opacity: .89;
+}
+
+h1 {
+    padding: ;
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h2.name {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: white;
+    padding-top: 40px;
+}
+
+h2.info {
+    color: white;
+    padding-top: 25px;
+}
+
+.menu {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/0623/products/Leopard_Wallpaper_in_Osaka_from_the_Kingdom_Home_Collection_by_Milton_King_fa5c9bd8-228d-4970-ae2c-6af2e420a1c4_1024x1024.jpg?v=1571712493");
+    background-size: cover;
+}
+
+
+
+/*about me page*/
+header.about {
+    background: #E1DC64;
+    opacity: .92;
+}
+
+h2.city {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: white;
+    padding-top: 0px;
+}
+
+.ggbridge {
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.about-paragraph {
+}
+/*end of about me page*/
+
+
+/*movies page*/
+header.movies {
+    background: #AE9EBA;;
+}
+
+h2.movies-header {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: white;
+    padding-top: auto;
+}
+
+.dotted-line{
+  border-bottom: 2px dotted #FFFED1;
+  width: 600px;
+  padding-top: 5px;
+} 
+
+h3.movies-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.table {
+    border: solid;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+td.movie-title {
+    padding: 10px;
+    padding-left: 70px;
+    text-align: left;
+}
+
+tr:hover {background-color: #f5f5f5;}
+/*end of movies page*/
+
+/*Food page*/
+
+header.food {
+    background: #B1CBA2;
+}

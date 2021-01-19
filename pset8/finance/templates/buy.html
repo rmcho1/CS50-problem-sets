@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy stocks
+{% endblock %}
+
+{% block main %}
+
+<form action="/buy" method="POST">
+    <div>
+        <h1 align="center"> Buy Stocks </h1>
+    </div>
+    <table id="buy-table">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="symbol" placeholder = "enter symbol"></td>
+        </tr>
+        <tr>
+            <td>Shares</td>
+            <td><input type="text" name="shares" placeholder="enter number"></td>
+        </tr>
+        
+        <tr>
+            <td><input type="submit"></td>
+        </tr>
+    </table>
+</form>
+
+{% endblock %}

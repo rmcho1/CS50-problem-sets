@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+            <h2 class="name">Current Favorite Products</h2>
+        </header>
+        
+        <div class="menu">
+            <select id="select" onchange="launch(this)">
+                <option value="index.html">Home</option>
+                <option value="AboutMe.html">About me</option>
+                <option value="Movies.html">Movies</option>
+                <option value="Food.html">Food</option>
+                <option value="Products.html" selected>Products</option>
+            </select>
+        </div>
+    </body>
+</html>
